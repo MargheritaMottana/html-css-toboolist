@@ -39,5 +39,23 @@ main {
 .tasks-container {
     background-color: white;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
+}
+
+.button {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 3px;
+}
+
+.add-tasks {
+    color: white;
+    background-color: #48ADF1;
+}
+
+.add-section {
+    color: #CFD4D8;
+    background-color: white;
+    border-style: solid;
+    border-color: #CFD4D8;
 }
