@@ -73,8 +73,9 @@ main {
 /* CIRCLES, CHECK & CROSS */
 
 .circle {
+    margin-right: 5px;
     color: black;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 50%;
     width: 20px;
     height: 20px;
@@ -84,11 +85,48 @@ main {
 }
 
 .check {
-    color: green;
-    border-color: green;
+    color: #82CDBB;
+    border-color: #82CDBB;
 }
 
 .cross {
-    color: red;
-    border-color: red;
+    color: #EE6058;
+    border-color: #EE6058;
+}
+
+/* TODO */
+
+.todo {
+    margin-top: 20px;
+    margin-bottom: 30px
+}
+
+.todo-title {
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* LABEL */
+
+.label {
+    color: white;
+    font-size: small;
+    background-color: black;
+    border-radius: 50px;
+    padding: 7px;
+    margin: 5px;
+}
+
+.label-blue {
+    background-color: #45ABEA;
+}
+
+/* TODO GENERAL */
+
+.section-1 circle,
+.check,
+.contenuto,
+.label {
+    vertical-align: middle;
 }
