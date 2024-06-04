@@ -104,7 +104,7 @@ main {
 .todo-title {
     font-size: large;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 /* LABEL */
@@ -122,6 +122,18 @@ main {
     background-color: #45ABEA;
 }
 
+.label-violet {
+    background-color: #9C72E4;
+}
+
+.label-green {
+    background-color: #63C0A9;
+}
+
+.label-orange {
+    background-color: #F29E33;
+}
+
 /* TODO GENERAL */
 
 .section-1 circle,
@@ -129,4 +141,16 @@ main {
 .contenuto,
 .label {
     vertical-align: middle;
+}
+
+.section-2 circle,
+.cross,
+.contenuto,
+.label {
+    vertical-align: middle;
+}
+
+.section {
+    margin-top: 10x;
+    margin-bottom: 20px;
 }
