@@ -98,13 +98,18 @@ main {
 
 .todo {
     margin-top: 20px;
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    padding-left: 10px;
 }
 
 .todo-title {
     font-size: large;
     font-weight: bold;
     margin-bottom: 5px;
+}
+
+.todos {
+    margin-top: 10px;
 }
 
 /* LABEL */
@@ -132,6 +137,14 @@ main {
 
 .label-orange {
     background-color: #F29E33;
+}
+
+.label-pink {
+    background-color: #D763A1;
+}
+
+.label-lightgreen {
+    background-color: #B0C925;
 }
 
 /* TODO GENERAL */
