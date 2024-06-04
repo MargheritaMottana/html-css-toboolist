@@ -7,8 +7,37 @@
     font-family: sans-serif;
 }
 
+/* GENERAL */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
 /* HEADER */
 
+header {
+    padding: 10px;
+}
 
+header img,
+header h1 {
+    vertical-align: middle;
+}
+
+h1 {
+    display: inline;
+}
 
 /* MAIN */
+
+main {
+    background: #F5F8F9;
+    padding: 20px 0;
+}
+
+.tasks-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
