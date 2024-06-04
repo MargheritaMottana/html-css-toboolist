@@ -39,8 +39,18 @@ main {
 .tasks-container {
     background-color: white;
     padding: 20px;
-    border-radius: 10px;
+    margin-bottom: 5px;
 }
+
+.container-1 {
+    border-radius: 10px 10px 0 0;
+}
+
+.container-2 {
+    border-radius: 0 0 10px 10px;
+}
+
+/* BOTTONI ADD */
 
 .button {
     border-radius: 10px;
@@ -58,4 +68,27 @@ main {
     background-color: white;
     border-style: solid;
     border-color: #CFD4D8;
+}
+
+/* CIRCLES, CHECK & CROSS */
+
+.circle {
+    color: black;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.check {
+    color: green;
+    border-color: green;
+}
+
+.cross {
+    color: red;
+    border-color: red;
 }
